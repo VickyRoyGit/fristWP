@@ -13,10 +13,12 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
+    
 }
 ul{
     list-style: none;
     display: flex;
+    gap: 16px;
 }
 a{
     text-decoration: none;
@@ -29,6 +31,10 @@ a{
     gap: 24px;
     padding: 16px;
 }
+.hero h1{
+    font-size: 48px;
+    font-weight: 800;
+} 
 .contain{
     flex: 0 1 400px;
     text-align: left;
@@ -39,17 +45,21 @@ a{
     align-items: center;
     justify-content: center;
 }
-.random{
-
-}
 .cards{
     display: flex;
     flex-wrap: wrap;
+    gap: 32px;
+    padding: 32px 0px;
 }
 .card{
     display: flex;
     flex-direction: column;
     min-width: 100px;
+}
+img{
+    height: 80px;
+    width: auto;
+    border-radius:5px ;
 }
 .quote{
     background-color: hsl(0, 1%, 29%,1);
@@ -58,6 +68,8 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 32px 0px;
+    color:aliceblue;
 }
 .quote text{
     max-width: 600px;
@@ -65,7 +77,8 @@ a{
 .action{
     display: flex;
     justify-content: center;
-    margin:5%;
+    margin:32px 8px;
+    padding: 32px 0px;
     align-self: stretch;
     background-color: hsl(200, 50%, 29%,1);
     color: hsl(0, 13%, 95%,1);
@@ -76,4 +89,5 @@ a{
 footer{
     background-color: hsl(0, 1%, 29%,1);
     color: hsl(0, 13%, 95%,1);
+    padding: 32px 0px;
 }
